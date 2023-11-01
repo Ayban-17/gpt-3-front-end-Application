@@ -1,6 +1,7 @@
 import Brands from "./components/Brands"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import WhatIsGpt from "./components/WhatIsGpt"
 
 const App:React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const App:React.FC = () => {
       <Header/>
       <Hero/>
       <Brands/>
+      <WhatIsGpt/>
     </div>
   )
 }

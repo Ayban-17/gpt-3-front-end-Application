@@ -46,3 +46,38 @@ body{
     opacity: 30%;
     z-index: -1;
 }
+
+#GPT{
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+#GPT article, #GPT div, #GPT p {
+    z-index: 2;
+}
+
+#GPT::before{
+    content: "";
+    position: absolute;
+    width: 581px;
+    height: 410px;
+    top: -270px;
+    left: -350px;
+    background-color: #0f4279;
+    filter:blur(60px) ;
+    z-index: 0;
+}
+
+#GPT::after{
+    content: "";
+    position: absolute;
+    width: 623px;
+    height: 558px;
+    bottom: -330px;
+    right: -400px;
+    border-radius: 623px;
+    background-color: #1b78de;
+    filter:blur(60px) ;
+    z-index: 0;
+}
