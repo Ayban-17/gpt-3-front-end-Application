@@ -28,7 +28,6 @@ const navigations: Navigations[] = [
         destination:"Library"
     }
 ]
-
 const Header:React.FC = () => {
   return (
     <header className="py-[55px] text-[18px] " id="header">
