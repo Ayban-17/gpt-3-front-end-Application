@@ -6,4 +6,13 @@
 body{
     background-color:#040c18 ;
     font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.title-gradient{
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

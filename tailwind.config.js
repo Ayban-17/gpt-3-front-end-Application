@@ -15,7 +15,8 @@ export default {
       "black":"#000",
       "red":"#ff8a71",
       "descriptions":"#81afdd",
-      "footer-bg":"#031b34"
+      "footer-bg":"#031b34",
+      "input-bg":"#052d56"
     },
     extend: {},
   },

@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg"
+import CTAbtn from "./reusable/CTAbtn"
 
 interface Navigations {
     name:string,
@@ -42,7 +43,7 @@ const Header:React.FC = () => {
         </div>
         <div className="flex gap-[26px] items-center">
             <a href="#">Sign in</a>
-            <a href="#" className="bg-cta px-11 py-4">Sign up</a>
+            <CTAbtn content="Sign up"/>
         </div>
       </nav>
     </header>
