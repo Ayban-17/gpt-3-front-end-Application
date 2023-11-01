@@ -6,7 +6,7 @@ import shopify from "../assets/shopify.png"
 
 const Brands = () => {
   return (
-    <section className="flex gap-[46.48px] justify-center">
+    <section className="flex gap-[46.48px] justify-center mb-32">
       <img src={google} alt="google" />
       <img src={slack} alt="slack" />
       <img src={atlassian} alt="atlassian" />
