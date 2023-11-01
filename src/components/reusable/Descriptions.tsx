@@ -5,7 +5,7 @@ interface Props {
 
 const Descriptions:React.FC<Props> = ({content, addStyles}) => {
   return (
-    <p className={`text-descriptions font-normal leading-normal max-w-[554px] ${addStyles ? addStyles:"text-xl "}`}>{content}</p>
+    <p className={`text-descriptions  max-w-[554px] ${addStyles ? addStyles:"text-xl font-normal leading-normal"}`}>{content}</p>
   )
 }
 

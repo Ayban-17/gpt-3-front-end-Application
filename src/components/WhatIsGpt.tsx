@@ -23,7 +23,7 @@ const articles:Article[] =[
   }
 ] 
 
-const WhatIsGpt = () => {
+const WhatIsGpt:React.FC = () => {
   return (
     <section id="GPT" className="bg-secondary max-w-[1170px] min-h-[695px] px-[73px] py-[74px]">
       <article className="flex justify-between ">
