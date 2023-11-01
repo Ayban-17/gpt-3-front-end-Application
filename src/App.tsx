@@ -1,8 +1,10 @@
+import Header from "./components/Header"
 
-function App() {
-
+const App:React.FC = () => {
   return (
-    <h1 className=''>Hello world</h1>
+    <div className='px-[135px] text-white'>
+      <Header/>
+    </div>
   )
 }
 
