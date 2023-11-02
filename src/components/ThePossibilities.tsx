@@ -2,6 +2,7 @@ import possibility from "../assets/possibility.png"
 import ClickableText from "./reusable/ClickableText"
 import Descriptions from "./reusable/Descriptions"
 import GradientTitle from "./reusable/GradientTitle"
+
 const ThePossibilities = () => {
   return (
     <section id="caseStudies" className="mt-[55px] grid grid-cols-2">

@@ -2,6 +2,7 @@ import Brands from "./components/Brands"
 import FutureIsNow from "./components/FutureIsNow"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import RegisterToday from "./components/RegisterToday"
 import ThePossibilities from "./components/ThePossibilities"
 import WhatIsGpt from "./components/WhatIsGpt"
 
@@ -14,6 +15,7 @@ const App:React.FC = () => {
       <WhatIsGpt/>
       <FutureIsNow/>
       <ThePossibilities/>
+      <RegisterToday/>
     </div>
   )
 }
