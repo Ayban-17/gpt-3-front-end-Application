@@ -1,3 +1,4 @@
+import ALotIsHappening from "./components/ALotIsHappening"
 import Brands from "./components/Brands"
 import FutureIsNow from "./components/FutureIsNow"
 import Header from "./components/Header"
@@ -16,6 +17,7 @@ const App:React.FC = () => {
       <FutureIsNow/>
       <ThePossibilities/>
       <RegisterToday/>
+      <ALotIsHappening/>
     </div>
   )
 }
