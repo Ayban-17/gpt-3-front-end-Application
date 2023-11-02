@@ -30,7 +30,7 @@ const navigations: Navigations[] = [
 ]
 const Header:React.FC = () => {
   return (
-    <header className="py-[55px] text-[18px] " id="header">
+    <header className="py-[55px] text-[18px]" id="header">
       <nav className="flex justify-between">
         <div className="flex gap-[68.78px] items-center">
             <img src={logo} alt="logo" className="w-[62.557px] h-[16.016px]"/>

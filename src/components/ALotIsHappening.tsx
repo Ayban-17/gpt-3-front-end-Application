@@ -13,7 +13,7 @@ interface Blogs {
     text: string
 }
 
-const blogs:Blogs[]=[
+const blogs: Blogs[]=[
     {
         img: blog01,
         date: "Sep 26, 2021",
