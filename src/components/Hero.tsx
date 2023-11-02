@@ -6,13 +6,13 @@ import GradientTitle from "./reusable/GradientTitle"
 
 const Hero:React.FC = () => {
   return (
-    <section className="grid lg:grid-cols-2 lg:relative lg:mb-24" id="hero">
+    <section className="grid grid-cols-1 lg:grid-cols-2 lg:relative lg:mb-24" id="hero">
       <div className=" flex flex-col gap-8 lg:mt-12">
         <GradientTitle content="Let's Build Something amazing with GPT-3 Open AI"/>
         <Descriptions content="Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of."/>
         <div className="flex">
-            <input type="text" placeholder="Your Email Address" className="bg-input-bg flex-1 px-8 md:py-4 placeholder-placeholder-color focus:outline-none"/>
-            <CTAbtn content="Get Started" addStyles="rounded-tr rounded-br py-4"/>
+            <input type="text" placeholder="Your Email Address" className="bg-input-bg flex-1 p-4 md:px-8 placeholder-placeholder-color focus:outline-none"/>
+            <CTAbtn content="Get Started" addStyles="rounded-tr rounded-br "/>
         </div>
         <div className="flex flex-col items-center gap-2 md:flex-row md:justify-center">
            <img src={people} alt="people" />
