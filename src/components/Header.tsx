@@ -44,7 +44,7 @@ const Header:React.FC = () => {
     }
 
   return (
-    <header className="py-8 text-sm lg:py-[55px] lg:text-[18px]" id="header">
+    <header className="py-8 text-sm  lg:py-[55px] md:text-[18px]" id="header">
       <nav className="flex justify-between items-center">
         <div className="lg:flex lg:gap-[68.78px] lg:items-center">
             <img src={logo} alt="logo" className="w-24 lg:w-[62.557px] lg:h-[16.016px]"/>
@@ -58,13 +58,13 @@ const Header:React.FC = () => {
         <div className="flex gap-[26px] items-center">
             <a href="#">Sign in</a>
             <CTAbtn content="Sign up"/>
-            <div className="text-xl cursor-pointer" onClick={openMenu}>
+            <div className="text-xl md:text-2xl cursor-pointer lg:hidden" onClick={openMenu}>
                 <FaBars/>
             </div>
         </div>
         {/* MOBILE NAV  */}
         <div className={`flex flex-col text-2xl gap-6 p-8  absolute h-screen w-5/6 md:w-1/2 backdrop-blur-xl top-0 duration-1000 ${isOpen? "right-0":"-right-[100vw]"} lg:hidden `}>
-                <div className="self-end cursor-pointer" onClick={closeMenu}>
+                <div className="self-end cursor-pointer " onClick={closeMenu}>
                     <RxCross2/>
                 </div>
                 {navigations.map(({name, destination}, index)=>(
