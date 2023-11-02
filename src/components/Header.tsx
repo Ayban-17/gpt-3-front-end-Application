@@ -49,11 +49,12 @@ const Header:React.FC = () => {
         <div className="lg:flex lg:gap-[68.78px] lg:items-center">
             <img src={logo} alt="logo" className="w-24 lg:w-[62.557px] lg:h-[16.016px]"/>
             {/* DESKTOP NAV  */}
-            <div className="hidden lg:flex lg:gap-[46px]">
+            <ul className="hidden lg:flex lg:gap-[46px]">
                 {navigations.map(({name, destination}, index)=>(
-                    <a key={index} href={`#${destination}`}> {name}</a>
+                    <li key={index} > <a href={`#${destination}`}>{name}</a>
+                    </li>
                 ))}
-            </div>
+            </ul>
         </div>
         <div className="flex gap-[26px] items-center">
             <a href="#">Sign in</a>
@@ -63,14 +64,15 @@ const Header:React.FC = () => {
             </div>
         </div>
         {/* MOBILE NAV  */}
-        <div className={`flex flex-col text-2xl gap-6 p-8  overflow-x-hidden absolute h-[120%] w-5/6 md:w-1/2 backdrop-blur-xl top-0 duration-1000 ${isOpen? "right-0":"-right-[100vw]"}  lg:hidden `}>
+        <ul className={`flex flex-col text-2xl gap-6 p-8  overflow-x-hidden absolute h-[120%] w-5/6 md:w-1/2 backdrop-blur-xl top-0 duration-1000 ${isOpen? "right-0":"-right-[100vw]"}  lg:hidden `}>
                 <div className="self-end cursor-pointer " onClick={closeMenu}>
                     <RxCross2/>
                 </div>
                 {navigations.map(({name, destination}, index)=>(
-                    <a key={index} href={`#${destination}`}> {name}</a>
+                    <li key={index} onClick={closeMenu} > <a href={`#${destination}`}>{name}</a>
+                    </li>
                 ))}
-        </div>
+        </ul>
       </nav>
     </header>
   )
