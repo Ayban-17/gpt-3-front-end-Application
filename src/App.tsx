@@ -11,7 +11,7 @@ import WhatIsGpt from "./components/WhatIsGpt"
 const App:React.FC = () => {
   return (
     <div className='  text-white flex flex-col '>
-        <main className="max-w-[1440px] px-[135px] self-center">
+        <main className="p-4 md:px-8 lg:max-w-[1440px] lg:px-[135px] lg:self-center">
           <Header/>
           <Hero/>
           <Brands/>
