@@ -2,6 +2,7 @@ import Brands from "./components/Brands"
 import FutureIsNow from "./components/FutureIsNow"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import ThePossibilities from "./components/ThePossibilities"
 import WhatIsGpt from "./components/WhatIsGpt"
 
 const App:React.FC = () => {
@@ -12,6 +13,7 @@ const App:React.FC = () => {
       <Brands/>
       <WhatIsGpt/>
       <FutureIsNow/>
+      <ThePossibilities/>
     </div>
   )
 }

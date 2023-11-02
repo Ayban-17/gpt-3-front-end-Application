@@ -13,19 +13,19 @@ const navigations: Navigations[] = [
     },
     {
         name:"What is GPT",
-        destination:"#GPT"
+        destination:"GPT"
     },
     {
         name:"Open AI",
-        destination:"#openAI"
+        destination:"openAI"
     },
     {
         name:"Case Studies",
-        destination:"#caseStudies"
+        destination:"caseStudies"
     },
     {
         name:"Library",
-        destination:"Library"
+        destination:"library"
     }
 ]
 const Header:React.FC = () => {
