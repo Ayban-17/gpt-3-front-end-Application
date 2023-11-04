@@ -12,24 +12,24 @@ const Footer = () => {
                 <img src={logo} alt="logo" />
                 <p className="mt-8">Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 w-fit">
                 <h1 className="font-bold mb-4">Links</h1>
-                <a href="" className="text-xs">Overons</a>
-                <a href="" className="text-xs">Social Media</a>
-                <a href="" className="text-xs">Counters</a>
-                <a href="" className="text-xs">Contact</a>
+                <a href="" className="text-xs w-fit">Overons</a>
+                <a href="" className="text-xs w-fit">Social Media</a>
+                <a href="" className="text-xs w-fit">Counters</a>
+                <a href="" className="text-xs w-fit">Contact</a>
             </div>
-            <div className="flex flex-col gap-4 mb-4">
+            <div className="flex flex-col gap-4 w-fit mb-4">
                 <h1 className="font-bold">Company</h1>
-                <a href="" className="text-xs">Terms & Condition</a>
-                <a href="" className="text-xs">Privacy Policy</a>
-                <a href="" className="text-xs">Contact</a>
+                <a href="" className="text-xs w-fit">Terms & Condition</a>
+                <a href="" className="text-xs w-fit">Privacy Policy</a>
+                <a href="" className="text-xs w-fit">Contact</a>
             </div>
-            <div className="flex flex-col gap-4  ">
+            <div className="flex flex-col gap-4 w-fit  ">
                 <h1 className="font-bold">Get in Touch</h1>
-                <a href="" className="text-xs">Crechterwoord K12 182 DK Alknjkcb</a>
-                <a href="" className="text-xs">085-132567</a>
-                <a href="" className="text-xs">info@payme.net</a>
+                <a href="" className="text-xs w-fit">Crechterwoord K12 182 DK Alknjkcb</a>
+                <a href="" className="text-xs w-fit">085-132567</a>
+                <a href="" className="text-xs w-fit">info@payme.net</a>
             </div>
         </div>
         <p className="text-xs">© 2021 GPT-3. All rights reserved.</p>
