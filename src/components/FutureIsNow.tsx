@@ -29,16 +29,16 @@ const articles:Articles[] =[
 
 const FutureIsNow:React.FC = () => {
   return (
-    <section id="openAI" className="mt-[201px] grid lg:grid-cols-2">
-        <div className="flex flex-col gap-8">
-            <GradientTitle content="The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen." addStyles="text-[34px] font-extrabold leading-[45px] max-w-[426px]"/>
+    <section id="openAI" className="mt-[201px] grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="flex flex-col gap-8 mb-10">
+            <GradientTitle content="The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen." addStyles="text-[34px] font-extrabold leading-[45px] lg:max-w-[426px]"/>
             <ClickableText content="Request Early Access to Get Started"/>
         </div>
         <div className="flex flex-col gap-10">
            {
             articles.map(({title, description}, index)=>(
-                <article className="grid grid-cols-[250px_334px]" key={index}>
-                    <TitleWithBars content={title} addStyles="text-[18px] leading-[24px] -tracking-[0.72px] pr-24"/>
+                <article className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-[250px_334px]" key={index}>
+                    <TitleWithBars content={title} addStyles="text-[18px] leading-[24px] md:mt-4 lg:mt-0 -tracking-[0.72px] pr-24"/>
                     <Descriptions content={description} addStyles="text-[14px] font-[500] leading-[24px] "/>
                 </article>
             ))
