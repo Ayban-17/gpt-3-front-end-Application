@@ -44,7 +44,7 @@ const Header:React.FC = () => {
     }
 
   return (
-    <header className="py-8 text-sm  lg:py-[55px] md:text-[18px]" id="header">
+    <header className="py-8 text-sm  lg:py-[55px] md:text-[18px] overflow-x-hidden" id="header">
       <nav className="flex justify-between items-center">
         <div className="lg:flex lg:gap-[68.78px] lg:items-center">
             <img src={logo} alt="logo" className="w-24 lg:w-[62.557px] lg:h-[16.016px]"/>

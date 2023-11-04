@@ -16,6 +16,8 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
+
+
 #hero::before{
     content: "";
     position: absolute;
