@@ -10,8 +10,7 @@ html{
 body{
     background-color:#040c18 ;
     font-family: 'Manrope', sans-serif;
-    overflow-x: hidden;
-    
+    /* overflow-x: hidden; */
 }
 
 .title-gradient{
@@ -20,38 +19,74 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-
-#hero::before{
-    content: "";
-    position: absolute;
-    width: 1013px;
-    height: 1013px;
-    border-radius: 100%;
-    top: -500px;
-    left: -480px;
-    background-color: #002853;
-    box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
-    filter: blur(282px);
-    opacity: 30%;
-    z-index: -1;
+/* 
+@media screen and (min-width:300px) {
+    #hero::before{
+        content: "";
+        position: absolute;
+        width: 1013px;
+        height: 1013px;
+        border-radius: 100%;
+        top: -900px;
+        left: -600px;
+        background-color: #002853;
+        box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
+        filter: blur(282px);
+        opacity: 30%;
+        z-index: -1;
+    }
 }
+@media screen and (min-width:768px) {
+    #hero::before{
+        content: "";
+        position: absolute;
+        width: 1013px;
+        height: 1013px;
+        border-radius: 100%;
+        top: -500px;
+        left: -500px;
+        background-color: #002853;
+        box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
+        filter: blur(282px);
+        opacity: 30%;
+        z-index: -1;
+    }
+} */
 
-#hero::after{
-    content: "";
-    position: absolute;
-    width: 701px;
-    height: 496px;
-    border-radius: 100%;
-    bottom: -265px;
-    right: -530px;
-    background-color: #002853;
-    box-shadow: -100px -100px 200px rgba(0, 40, 83, 1);
-    filter: blur(282px);
-    opacity: 30%;
-    z-index: -1;
-}
+
+/* @media screen and (min-width:1000px) { */
+    #hero::before{
+        content: "";
+        position: absolute;
+        width: 1013px;
+        height: 1013px;
+        border-radius: 100%;
+        top: -500px;
+        left: -480px;
+        background-color: #002853;
+        box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
+        filter: blur(282px);
+        opacity: 30%;
+        z-index: -1;
+    }
+    
+    #hero::after{
+        content: "";
+        position: absolute;
+        width: 701px;
+        height: 496px;
+        border-radius: 100%;
+        bottom: -265px;
+        right: -530px;
+        background-color: #002853;
+        box-shadow: -100px -100px 200px rgba(0, 40, 83, 1);
+        filter: blur(282px);
+        opacity: 30%;
+        z-index: -1;
+    }
+/* } */
+
+
 
 #GPT{
     overflow: hidden;
