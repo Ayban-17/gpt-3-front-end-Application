@@ -50,17 +50,17 @@ const ALotIsHappening = () => {
   return (
     <section id="library" className="mt-[183.25px]">
         <GradientTitle content="A lot is happening, We are blogging about it." addStyles="max-w-[701px] text-[62px] leading-[75px] -tracking-[2.48px] p-4"/>
-        <div className="mt-[115.79px] grid grid-cols-[417px_327.34px_327.34px] gap-[49.51px]">
+        <div className="mt-[115.79px] grid grid-cols-1 md:grid-cols-2  lg:grid-cols-[417px_327.34px_327.34px] gap-[49.51px]">
             {
                 blogs.map(({img, date, title, text}, index)=>(
                     <article key={index} className={`${img === blog01 ? "row-span-2":""} bg-secondary `}>
                         <img src={img} alt={title} className="bg-primary"/>
-                        <div className={`flex flex-col justify-between ${img === blog01 ? "px-[25.63px] py-[32.62px] min-h-[407.27px]":"px-[17px] py-[13.98px] min-h-[193.37px]"}`}>
-                            <div className="flex flex-col">
+                        <div className={`flex flex-col justify-between gap-8 ${img === blog01 ? "px-[25.63px] py-[32.62px] md:min-h-[500px] lg:min-h-[407.27px]":"px-[17px] py-[13.98px] md:min-h-[193.37px]"}`}>
+                            <div className="flex flex-col ">
                                 <time className="text-[11.649px] font-[700] leading-[34.947px]">{date}</time>
                                 <h1 className={` ${img === blog01? "text-[25.11px]":"text-[19.315px]"} text-[25.11px] font-extrabold leading-[30.287px]`}>{title}</h1>
                             </div>
-                            <a href="#" className="text-[11.649px] ">{text}</a>
+                            <a href="#" className="text-[11.649px] justify-self-end">{text}</a>
                         </div>
                     </article>
                 ))
