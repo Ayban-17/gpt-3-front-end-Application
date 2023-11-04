@@ -64,7 +64,7 @@ const Header:React.FC = () => {
             </div>
         </div>
         {/* MOBILE NAV  */}
-        <ul className={`flex flex-col text-2xl gap-6 p-8  overflow-x-hidden absolute h-[120%] w-5/6 md:w-1/2 backdrop-blur-xl top-0 duration-1000 ${isOpen? "right-0":"-right-[100vw]"}  lg:hidden `}>
+        <ul className={`flex flex-col text-2xl gap-6 p-8 fixed backdrop-blur-xl left-0  w-screen h-screen duration-1000 lg:hidden ${isOpen? "top-0":"-top-[100vh]"}`}>
                 <div className="self-end cursor-pointer " onClick={closeMenu}>
                     <RxCross2/>
                 </div>
