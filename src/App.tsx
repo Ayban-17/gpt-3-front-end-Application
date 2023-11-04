@@ -10,7 +10,7 @@ import WhatIsGpt from "./components/WhatIsGpt"
 
 const App:React.FC = () => {
   return (
-    <div className=' text-white flex flex-col overflow-x-hidden'>
+    <div className=' text-white flex flex-col overflow-hidden'>
         <main className="p-4 md:px-20  lg:max-w-[1440px] lg:px-[135px] lg:self-center">
           <Header/>
           <Hero/>

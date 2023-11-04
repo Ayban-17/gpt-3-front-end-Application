@@ -10,7 +10,7 @@ html{
 body{
     background-color:#040c18 ;
     font-family: 'Manrope', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .title-gradient{
@@ -19,42 +19,9 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* 
-@media screen and (min-width:300px) {
-    #hero::before{
-        content: "";
-        position: absolute;
-        width: 1013px;
-        height: 1013px;
-        border-radius: 100%;
-        top: -900px;
-        left: -600px;
-        background-color: #002853;
-        box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
-        filter: blur(282px);
-        opacity: 30%;
-        z-index: -1;
-    }
-}
-@media screen and (min-width:768px) {
-    #hero::before{
-        content: "";
-        position: absolute;
-        width: 1013px;
-        height: 1013px;
-        border-radius: 100%;
-        top: -500px;
-        left: -500px;
-        background-color: #002853;
-        box-shadow: 100px 100px 200px rgba(0, 40, 83, 1);
-        filter: blur(282px);
-        opacity: 30%;
-        z-index: -1;
-    }
-} */
 
 
-/* @media screen and (min-width:1000px) { */
+ @media screen and (min-width:1000px){
     #hero::before{
         content: "";
         position: absolute;
@@ -84,8 +51,8 @@ body{
         opacity: 30%;
         z-index: -1;
     }
-/* } */
 
+ }
 
 
 #GPT{
