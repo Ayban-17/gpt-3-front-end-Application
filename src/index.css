@@ -3,10 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color:#040c18 ;
     font-family: 'Manrope', sans-serif;
     overflow-x: hidden;
+    
 }
 
 .title-gradient{
