@@ -4,10 +4,10 @@ import logo from "../assets/logo.svg"
 
 const Footer = () => {
   return (
-    <footer className='w-screen bg-footer-bg mt-[155.06px] flex flex-col items-center pt-[175px] px-[206px]'>
-        <GradientTitle content="Do you want to step in to the future before others" addStyles="text-center text-[62px] -tracking-[3.48px] leading-[75px] max-w-[821px]"/>
+    <footer className='w-screen bg-footer-bg mt-[155.06px] flex flex-col items-center md:pt-[175px] py-16 px-4 lg:px-[206px]'>
+        <GradientTitle content="Do you want to step in to the future before others" addStyles="text-center text-4xl md:text-[62px] md:-tracking-[3.48px] md:leading-[75px] md:max-w-[821px]"/>
         <button className="text-[18px] font-normal leading-normal border-2 py-[22px] px-[24px] mt-[64px]"> Request Early Access</button>
-        <div className="mt-[185px] w-full flex justify-between flex-wrap mb-[83px]">
+        <div className="mt-16 md:mt-[185px] w-full flex flex-col md:flex-row gap-8 justify-between pl-16 md:pl-0 mb-[83px]">
             <div className="max-w-[168px] text-[12px] font-normal leading-normal ">
                 <img src={logo} alt="logo" />
                 <p className="mt-8">Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
